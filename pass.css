@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+     }
+     .bigdiv{
+      border-top: 2px solid blue;
+      border-bottom: 2px solid blue;
+      padding: 5px;
+      height: 30vh;
+      box-shadow: 0.5px 2px 6px rgb(210, 203, 240);
+      border-radius: 5px;
+     }
+     #topnav{
+        margin-bottom: 10px;
+        border-radius: 4px;
+        text-align: center;
+        padding: 4px;
+     }
+     .result{
+        width: 480px;
+        box-shadow: 0.5px 2px 6px rgb(210, 203, 240);
+         margin-bottom: 20px;
+     }
+    
+     #copy{
+        display: none;
+     }
+     .result:hover #copy{
+        display: inline;
+     }
+     .pass{
+        font-weight: 800;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+    
+     #digit{
+      margin-left: 5px;
+      border: 0;
+      width: 50px;
+      height: 30px;
+      box-shadow: 0.5px 2px 6px rgb(107, 104, 122);
+     }
+     .coL1{
+      padding: 5px;
+      width: 190px;
+      /* border-left: 2px solid #0cf718; */
+      border-right: 2px solid blue;
+     }
+     .coL2{
+      width: 190px;
+      padding-left: 20px;
+     }
+     .box h2{
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 26px;
+        color: #015a96;
+        font-family: sans-serif;
+      }
+   body {
+     background-color: #8d0cf7;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     min-height: 100vh;
+       }
+   
+    .box{
+      background-color: white;
+      padding: 30px;
+      padding-top: 20px;
+      border-radius: 4px;
+      column-gap: 20px;
+    }
+    .box h2{
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 26px;
+        color: #015a96;
+        font-family: sans-serif;
+      }
+      #password {
+        padding: 20px;
+        user-select: none;
+        height: 50px;
+        width: 400px;
+        border-radius: 6px;
+        border: none;
+        outline: none;
+        font-size: 22px;
+        }
+       
+       input::placeholder{
+         font-size: 20px;
+        } 
+        #button {
+            font-family: sans-serif;
+            font-size: 15px;
+            margin-top: 40px;
+            border: 2px solid #7100cf;
+            width: 155px;
+            height: 50px;
+            background-color: #7100cf;
+            display: flex;
+            color: rgb(255, 255, 255);
+            justify-content: center;
+            align-items: center;
+            cursor: copy;
+            border-radius: 5px; 
+            text-decoration: none;
+          }
+          
+           .btn2{
+             margin-left: 85px
+           }
+          
+          #button:hover {
+            color: white;
+            background-color: rgb(31, 31, 252);
+            /* #2f0cf7 */
+          }  
+          /* #pin{
+            width: 20px;
+            display: inline;
+          }  */
+@media (max-width: 551px) {
+  *{
+    /* width: 100%; */
+    /* border: solid red; */
+    margin: auto;
+  }
+  body {
+
+    width: 100%;
+    background-color: #8d0cf7;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+  }
+  #topnav{
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    height: 12vh;
+    border-radius: 0%;
+  }
+  #topnav h2{
+    margin: 10px 0 -5px;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+  
+  .box{
+    background-color: white;
+    padding: 0px;
+    padding-top: 0px;
+    border-radius: 0;
+    margin: 0%;
+    height: 87vh;
+  }
+  .result{
+    width: 100%;
+    box-shadow: 0.5px 2px 6px rgb(210, 203, 240);
+     margin-bottom: 20px;
+ }
+  #password {
+    padding: 20px;
+    user-select: none;
+    height: 53px;
+    width: 82%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    }
+    .bigdiv{
+      border-top: 2px solid blue;
+      border-bottom: 2px solid blue;
+      padding: 5px 10px 5px 20px;
+      height: 20vh;
+      box-shadow: 0.5px 2px 6px rgb(210, 203, 240);
+      border-radius: 5px;
+     }
+}
